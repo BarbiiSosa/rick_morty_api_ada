@@ -211,7 +211,7 @@ nav{
  }
 }
 
-@media (max-width: 460px){
+@media (max-width: 460px) {
   .personajeees{
    margin-top: 130px;
    display: grid;
@@ -231,13 +231,11 @@ nav{
   .card-content{
     height: 17vh;
   color: black;
-
   }
-  
+}
 
 /* posicion horizontal */
-@media screen (max-width: 460px) and (orientation: landscape) 
- {
+@media screen (max-width: 460px) and (orientation: landscape) {
   .personajeees{
    margin-top: 130px;
    display: grid;
@@ -249,7 +247,7 @@ nav{
    );
    gap: 8px;
   }
-  .card {
+  .card{
     width: 38vh;
     height: 80vh;
     color: black;
@@ -260,5 +258,4 @@ nav{
   color: black;
     font-size: 10px;
   }
-
 }
