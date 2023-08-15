@@ -224,5 +224,10 @@ nav{
     height: 80vh;
     color: black;
   }
+  .card-content{
+    height: 30vh;
+  color: black;
+
+  }
   
 }
