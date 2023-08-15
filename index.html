@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />   
+       <link rel="stylesheet" href="./style.css" />
+    <title>Rick and Morty</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-wrapper color-black">
+        <img id="icono" src="icono.jpg" alt="icono">
+        <a href="https://twoda-intro-frontend-mt.onrender.com/assets/files/Introduccion_a_la_Programacion_Frontend_-_Proyecto_Final_4_1-12a82fbadb1e4ad7679333412bf339c8.pdf" class="brand-logo">Rick And Morty</a>
+        <ul id="nav-mobile">
+          <li id="todos"><a>Todos</a></li>
+          <li id="mujeres"><a>Mujeres</a></li>
+          <li id="hombres"><a>Hombres</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container-fuid">
+      <div id="contenedor" class="contenedor">
+      </div>
+      <br>
+      <p class="ttp">Total de personajes: <span id="total-personajes"></span></p>
+      <br>
+      <div class="personajeees" id="personajeees"></div>
+      
+    </main>
+
+    <div class="container-paginador">
+      <p>Pagina actual: <span id="pagina-actual"></span></p>
+      <p>Total de paginas: <span id="total-paginas"></span></p>
+    </div>
+
+    <div class="pagination">
+      <button
+        type="button"
+        id="first-page"
+        class="first-page pagination-button"
+        aria-label="Página previa"
+      >
+        <i class="fas fa-angle-double-left" aria-hidden="true"><<</i>
+      </button>
+      <button
+        type="button"
+        id="previus-page"
+        class="previous-page pagination-button"
+        aria-label="Página Anterior"
+      >
+        <i class="fas fa-angle-left" aria-hidden="true"><</i>
+      </button>
+      <button
+        type="button"
+        id="next-page"
+        class="next-page pagination-button"
+        aria-label="Página siguiente"
+      >
+        <i class="fas fa-angle-right" aria-hidden="true">></i>
+      </button>
+      <button
+        type="button"
+        id="last-page"
+        class="last-page pagination-button"
+        aria-label="Última página"
+      >
+        <i class="fas fa-angle-double-right" aria-hidden="true">>></i>
+      </button>
+    </div>
+
+    <footer class="page-footer color-black">
+      <div class="footerr">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer</h5>
+          </div> <br>
+        </div>
+      </div>
+      <div class="copyr">
+        <div class="cr">© 2023 Copyright Barbara Sosa</div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
