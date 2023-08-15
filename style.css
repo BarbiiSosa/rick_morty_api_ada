@@ -223,18 +223,22 @@ nav{
    );
    gap: 8px;
   }
+
+/*ver mas*/
   .card {
     width: 38vh;
-    height: 80vh;
+    height: 60vh;
     color: black;
+    font-size: 14px;
   }
   .card-content{
-    height: 17vh;
-  color: black;
+    height: 16vh;
+    color: black;
+    font-size: 10px;
   }
 }
 
-/* posicion horizontal */
+/* posicion horizontal
 @media screen (max-width: 460px) and (orientation: landscape) {
   .personajeees{
    margin-top: 130px;
@@ -258,4 +262,4 @@ nav{
   color: black;
     font-size: 10px;
   }
-}
+} */
