@@ -225,7 +225,33 @@ nav{
     color: black;
   }
   .card-content{
-    height: 15vh;
+    height: 17vh;
+  color: black;
+
+  }
+  
+}
+/* posicion horizontal */
+@media screen and (orientation: landscape) 
+ {
+  .personajeees{
+   margin-top: 130px;
+   display: grid;
+   grid-template-columns: repeat(
+   1,
+   minmax(
+   150px,
+   1fr)
+   );
+   gap: 8px;
+  }
+  .card {
+    width: 38vh;
+    height: 80vh;
+    color: black;
+  }
+  .card-content{
+    height: 17vh;
   color: black;
 
   }
