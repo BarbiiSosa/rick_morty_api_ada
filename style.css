@@ -253,7 +253,7 @@ nav{
   .card-content{
     height: 17vh;
   color: black;
-
+    font-size: 14px;
   }
   
 }
