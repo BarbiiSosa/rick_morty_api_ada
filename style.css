@@ -234,7 +234,7 @@ nav{
 
   }
   
-}
+
 /* posicion horizontal */
 @media screen (max-width: 460px) and (orientation: landscape) 
  {
@@ -253,11 +253,12 @@ nav{
     width: 38vh;
     height: 80vh;
     color: black;
+    font-size: 10px;
   }
   .card-content{
     height: 17vh;
   color: black;
     font-size: 10px;
   }
-  
+
 }
