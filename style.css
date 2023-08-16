@@ -91,7 +91,7 @@ nav{
   }
   
   .card-content {
-    height: 45vh;
+    height: 40vh;
     color: black;
   }
     
@@ -159,7 +159,11 @@ nav{
     height: 90px;
   
   }
- 
+ .card-action{
+  border-top-style: solid;
+  border-color: #757575;
+  
+ }
  
 .nav-mobile{
   
