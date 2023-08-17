@@ -215,7 +215,7 @@ nav{
  }
 }
 
-@media (max-width: 460px) {
+@media(min-width:320px) and (max-width: 460px) {
   .personajeees{
    margin-top: 130px;
    display: grid;
@@ -231,8 +231,8 @@ nav{
 
 /*ver mas*/
   .card {
-    width: 38vh;
-    height: 60vh;
+    width: 50vh;
+    height: 81vh;
     color: black;
     font-size: 10px;
   }
